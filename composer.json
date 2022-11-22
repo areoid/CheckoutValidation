@@ -1,0 +1,22 @@
+{
+    "name": "areoid/module-checkoutvalidation",
+    "description": "Custom Ajax Validation before order placed",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Aji Pastiya",
+            "email": "aji.prastiya.ok@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Insera\\CheckoutValidation\\": ""
+        }
+    }
+}
